@@ -1,0 +1,7 @@
+path: ./Dataset_YOLO
+train: images/train
+val: images/val
+
+nc: 2
+
+names: ['1', '0']
