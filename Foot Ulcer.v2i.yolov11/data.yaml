@@ -1,0 +1,16 @@
+train: C:/Users/User/OneDrive/Documents/Foot Ulcer - Copy/Foot Ulcer.v2i.yolov11/train/images
+val: C:/Users/User/OneDrive/Documents/Foot Ulcer - Copy/Foot Ulcer.v2i.yolov11/valid/images
+test: C:/Users/User/OneDrive/Documents/Foot Ulcer - Copy/Foot Ulcer.v2i.yolov11/test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: medica
+  project: foot-ulcer-10nf1
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/medica/foot-ulcer-10nf1/dataset/2
