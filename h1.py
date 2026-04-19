@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("C:/Users/User/OneDrive/Documents/Foot Ulcer/runs/detect/hasil_training/percobaan_pertama4/weights/best.pt")
+model = YOLO("C:/Users/User/OneDrive/Documents/Foot Ulcer/runs/detect/VISIOPED/training_awal4/weights/best.pt")
 
 CAMERA_INDEX = 1
 
