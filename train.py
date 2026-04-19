@@ -9,7 +9,7 @@ def main():
         epochs=50,              
         imgsz=640,              
         batch=8,               
-        device=0,              
+        device="cpu",              
         project="VISIOPED",     
         name="training_awal",   
         plots=True              
